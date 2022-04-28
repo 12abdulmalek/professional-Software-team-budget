@@ -1,0 +1,27 @@
+.team-members{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.team-member{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+}
+.member-cart{
+    background-color: rgba(34, 177, 202, 0.473);
+}
+@media (max-width:900px) {
+    .team-members{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .team-member{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 15px;
+    }
+}
+@media (max-width:600px) {
+    .team-members{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

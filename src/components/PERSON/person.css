@@ -1,0 +1,23 @@
+.personal-data{
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px 1px rgba(20, 19, 19, 0.692);
+    border-radius: 12px;
+    background-color: #fff;
+}
+.personal-data img{
+    width: 90px;
+    height: 60px;
+    margin-right:12px ;
+}
+.icon{
+    color: red;
+    background-color: black;
+    padding: 12px;
+}
+.deleted-btn{
+    background-color: transparent;
+    border: none;
+}

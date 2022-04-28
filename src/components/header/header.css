@@ -1,0 +1,9 @@
+.header{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+    background-color: rgba(75, 116, 102, 0.795);
+}
+.team{
+    text-align: center;
+}
